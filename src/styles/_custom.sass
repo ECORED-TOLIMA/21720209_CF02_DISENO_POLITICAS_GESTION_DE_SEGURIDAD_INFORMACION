@@ -2,13 +2,13 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 1%
+    right: 65%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 30%
+    right: 15%
 
 
 @keyframes float1
@@ -17,5 +17,68 @@
   100%
     transform: translateY(0px)
   
-.txt--green
-  color: #39A900 !important
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/banner.png") !important
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+
+//- Modulo cajones
+.cajon.C01
+  background-color: #DAF5FE
+.cajon.C02
+  background-color: #FFCFF3  
+
+// Modulo tarjetas
+.tarjeta--C01
+  background-color: #C7DDE2
+.tarjeta--C02
+  background-color: #F4E5F0
+
+.tarjeta--BG01
+  background-image: url("../assets/curso/temas/BG01.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+.tarjeta--BG02
+  background-image: url("../assets/curso/temas/BG02.png")
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+  h5, p, span
+    color: #fff
+
+//- Modulo acordions
+.acordion
+  .acordion__activo
+    background-color: #FFCFF3
+  .acordion__accion__btn--b
+    background-color: #0EF58B  
+  .acordion__accion__btn--a
+    background-color: #0EF58B
+
+//- Modulo tablas
+.table
+  width: 100%
+  table-layout: fixed
+  border-collapse: collapse
+
+//- Modulo listas 
+.lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li
+  display: flex
+
+//- pasosb color fondo btn left and right
+.pasos-b__header__btn--left, .pasos-b__header__btn--right, 
+  background-color: #0EF58B
+  border: none
+.pasos-b__header__item--before .pasos-b__header__item__dot 
+  background-color: #614C8D
+  border: #614C8D
+.pasos-b__header__item--before .pasos-b__header__item__dot i
+  color: #fff
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before, .pasos-b__header__item--before .pasos-b__header__item__line-container:after 
+  background-color: #9D9D9D 
+.pasos-b__header__item--active .pasos-b__header__item__line-container:before
