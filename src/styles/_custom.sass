@@ -2,10 +2,10 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 1%
+    top: 15%
     right: 65%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float2 2.8s ease-in-out infinite alternate
     position: absolute
     top: 30%
     right: 15%
@@ -16,6 +16,11 @@
     transform: translateY(20px)
   100%
     transform: translateY(0px)
+@keyframes float2
+  0%
+    transform: translateX(20px)
+  100%
+    transform: translateX(0px)
   
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/banner.png") !important
@@ -23,17 +28,36 @@
   background-position: center
   background-repeat: no-repeat
 
+// Modulo bloque text
+
+.bloque-texto-b.color-primario:before
+  background-color: #DAF5FE
+
 //- Modulo cajones
 .cajon.C01
   background-color: #DAF5FE
 .cajon.C02
   background-color: #FFCFF3  
+.cajon.BG04
+  background-image: url("../assets/curso/temas/BG04.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
 
 // Modulo tarjetas
 .tarjeta--C01
   background-color: #C7DDE2
 .tarjeta--C02
   background-color: #F4E5F0
+.tarjeta--C03
+  background-color: #0653AE
+.tarjeta--C04
+  background-color: #8F006F
+.tarjeta--C05
+  background-color: #DAF5FE
 
 .tarjeta--BG01
   background-image: url("../assets/curso/temas/BG01.png")
@@ -50,6 +74,115 @@
   background-position: center
   h5, p, span
     color: #fff
+.tarjeta--BG03
+  background-image: url("../assets/curso/temas/BG03.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+.tarjeta--BG05
+  background-image: url("../assets/curso/temas/BG05.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+.tarjeta--BG08
+  background-image: url("../assets/curso/temas/BG08.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+//- Modulo tarjetas numeradas
+.tarjeta-numerada
+  height: 100%
+.tarjeta-numerada.color-01
+  color: #0653AE 
+  .tarjeta-numerada__numero
+    background-color: #0653AE
+.tarjeta-numerada.color-02
+  color: #C2A4FF
+  .tarjeta-numerada__numero
+    background-color: #C2A4FF
+.tarjeta-numerada.color-03
+  color: #8F006F 
+  .tarjeta-numerada__numero
+    background-color: #8F006F
+.tarjeta-numerada.color-04
+  color: #C7DDE2
+  .tarjeta-numerada__numero
+    background-color: #C7DDE2
+
+//- Modulo crd x3
+
+.img90
+  width: 90px 
+.img50
+  width: 50px
+.img100
+  width: 100px
+.img130
+  width: 130px
+.img150
+  width: 150px
+.img180
+  width: 180px
+.img200
+  width: 200px
+.img250
+  width: 250px
+.img280
+  width: 280px
+
+.crd
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2rem
+    height: 100%
+    background-image: url('../assets/curso/temas/BG06.png')
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+    height: 100%
+    border-radius: 15px    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover      
+      background: linear-gradient(180deg, rgba(25,137,226,1) 0%, rgba(10,81,139,1) 100%)  
+      background-image: url('../assets/curso/temas/BG07.png')
+      background-size: cover
+      background-repeat: no-repeat
+      background-position: center
+      .bottomCircle
+        &::before
+          background-color: #0653AE
+  &.crd--blue
+    background-color: #B1DBEA
+
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+
+.bottomCircle
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 160px
+    height: 160px
+    background-color: #0EF58B
+    border-radius: 999px
 
 //- Modulo acordions
 .acordion
@@ -57,6 +190,7 @@
     background-color: #FFCFF3
   .acordion__accion__btn--b
     background-color: #0EF58B  
+    border: none
   .acordion__accion__btn--a
     background-color: #0EF58B
 
@@ -82,3 +216,63 @@
 .pasos-b__header__item--before .pasos-b__header__item__line-container:before, .pasos-b__header__item--before .pasos-b__header__item__line-container:after 
   background-color: #9D9D9D 
 .pasos-b__header__item--active .pasos-b__header__item__line-container:before
+
+//Modulo lineas de tiempo
+.linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right
+  background-color: #0EF58B
+  border: none
+
+.linea-tiempo-d.color-acento-botones.especial
+  .linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__content
+      background-color: #FFCFF3 !important 
+  .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+    background-color: #C7DDE2
+.tarjeta.tarjeta--gris
+  background-color: #C7DDE2
+
+// Modulo versión escritorio/movil
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
+
+//- Modulo Slyders 
+.slyder-f
+  .fa-chevron-left, .fa-chevron-right
+  color: #0EF58B
+
+.slyder__btn 
+  background-color: #ffc107
+    
+
+//- modulo titulos adicionales
+
+.titulo01
+  position: relative
+  left: -2%
+  background-color: #FFCFF3
+  border-radius: 20px
+  h3
+    color: black
+  @media screen and ( max-width: $bp-max-lg )
+    left: -3%
+  @media screen and ( max-width: $bp-max-sm )
+    left: -4%
+
+// Modulo slyderb
+i.fas.fa-angle-right, i.fas.fa-angle-left
+  color: $color-sistema-a !important
+
+.tarjeta ul 
+  list-style-type: disc
+  padding-left: 1.5rem
+
+.tarjeta li 
+  margin-bottom: 0.5rem

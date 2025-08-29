@@ -79,7 +79,7 @@
               tr
                 td.text-bold(data-aos="fade-down") Alcance, propietario y accesibilidad
                 td(data-aos="fade-down") Define responsables, mecanismos de mantenimiento y de fácil acceso para todos. 
-                td(data-aos="fade-down") El coordinador de TI es el responsable de mantener la política actualizada y accesible en intranet y restringe el uso de computadoras para fines laborales, prohibiendo instalar software sin autorización.
+                td(data-aos="fade-down") El coordinador de TI es el responsable de mantener la política actualizada y accesible en intranet y restringe el uso de computadoras para fines laborales, prohibiendo instalar <em>software</em> sin autorización.
                 td(data-aos="fade-down") ISO/IEC 27001, cláusula 5.3.
               tr
                 td.text-bold(data-aos="fade-down")(style="background-color: #F6F6F6") Compatibilidad con políticas dependientes
@@ -249,7 +249,7 @@
 
     LineaTiempoE.color-primario.mb-5
       .row.justify-content-center(titulo="01" subtitulo="")
-        .col-lg-9.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
+        .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
           h4 Establecer criterios medibles y verificables
           ul.lista-ul--color.mb-0(data-aos="fade-down")
             li.mb-0
@@ -258,11 +258,11 @@
             li.mb-0
               i.fas.fa-asterisk
               p.mb-0 <b>Ejemplo</b>: actualizar los parches de seguridad en un plazo máximo de 48 horas desde su publicación oficial.
-        .col-lg-auto.col-6.order-lg-1.order-1.mb-3(data-aos="fade-down")
+        .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-down")
           figure
             img(src='@/assets/curso/temas/tema1/img12.svg', alt='Imagen decorativa')
       .row.justify-content-center(titulo="02" subtitulo="")
-        .col-lg-9.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
+        .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
           h4 Mantener coherencia con la normativa vigente
           ul.lista-ul--color.mb-0(data-aos="fade-down")
             li.mb-0
@@ -274,11 +274,11 @@
             li.mb-0
               i.fas.fa-asterisk
               p.mb-0 <b>Ejemplo</b>: incluir en la política de protección de datos personales los lineamientos de la Ley 1581 de 2012.
-        .col-lg-auto.col-6.order-lg-1.order-1.mb-3(data-aos="fade-down")
+        .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-down")
           figure
             img(src='@/assets/curso/temas/tema1/img13.svg', alt='Imagen decorativa')
       .row.justify-content-center(titulo="03" subtitulo="")
-        .col-lg-9.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
+        .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
           h4 Redactar en voz activa
           ul.lista-ul--color.mb-0(data-aos="fade-down")
             li.mb-0
@@ -287,11 +287,11 @@
             li.mb-0
               i.fas.fa-asterisk
               p.mb-0 <b>Ejemplo</b>: “el jefe de seguridad debe aprobar las solicitudes de acceso”, en vez de “las solicitudes de acceso deberán ser aprobadas”.
-        .col-lg-auto.col-6.order-lg-1.order-1.mb-3(data-aos="fade-down")
+        .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-down")
           figure
             img(src='@/assets/curso/temas/tema1/img14.svg', alt='Imagen decorativa')
       .row.justify-content-center(titulo="04" subtitulo="")
-        .col-lg-9.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
+        .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
           h4 Incluir ejemplos prácticos cuando sea posible
           ul.lista-ul--color.mb-0(data-aos="fade-down")
             li.mb-0
@@ -300,11 +300,11 @@
             li.mb-0
               i.fas.fa-asterisk
               p.mb-0 <b>Ejemplo</b>: en una política de uso de contraseñas, incluir una contraseña robusta y una lista de prácticas prohibidas.
-        .col-lg-auto.col-6.order-lg-1.order-1.mb-3(data-aos="fade-down")
+        .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-down")
           figure
             img(src='@/assets/curso/temas/tema1/img15.svg', alt='Imagen decorativa')
       .row.justify-content-center(titulo="05" subtitulo="")
-        .col-lg-9.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
+        .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
           h4 Evitar cláusulas demasiado generales
           ul.lista-ul--color.mb-0(data-aos="fade-down")
             li.mb-0
@@ -316,11 +316,11 @@
             li.mb-0
               i.fas.fa-asterisk
               p.mb-0 <b>Ejemplo</b>: separar la “política de control de acceso” de la “política de gestión de contraseñas”, en lugar de fusionarlas de forma vaga.
-        .col-lg-auto.col-6.order-lg-1.order-1.mb-3(data-aos="fade-down")
+        .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-down")
           figure
             img(src='@/assets/curso/temas/tema1/img16.svg', alt='Imagen decorativa')
       .row.justify-content-center(titulo="06" subtitulo="")
-        .col-lg-9.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
+        .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
           h4 Revisar y validar antes de publicar
           ul.lista-ul--color.mb-0(data-aos="fade-down")
             li.mb-0
@@ -329,7 +329,7 @@
             li.mb-0
               i.fas.fa-asterisk
               p.mb-0 <b>Ejemplo</b>: aplicar la política de control de accesos durante una semana en el área de contabilidad, recopilar sus observaciones y ajustar el documento antes de su aprobación oficial.
-        .col-lg-auto.col-6.order-lg-1.order-1.mb-3(data-aos="fade-down")
+        .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-down")
           figure
             img(src='@/assets/curso/temas/tema1/img17.svg', alt='Imagen decorativa')
 
@@ -375,7 +375,7 @@
               tr
                 td.text-bold(data-aos="fade-down")(style="background-color: #F6F6F6") 7
                 td(data-aos="fade-down")(style="background-color: #F6F6F6") Los usuarios deben evitar riesgos en internet.
-                td(data-aos="fade-down")(style="background-color: #F6F6F6") Los usuarios deberán abstenerse de acceder a sitios web no autorizados y reportar cualquier intento de phishing al equipo de soporte técnico en un plazo máximo de 2 horas.
+                td(data-aos="fade-down")(style="background-color: #F6F6F6") Los usuarios deberán abstenerse de acceder a sitios <em>web</em> no autorizados y reportar cualquier intento de <em>phishing</em> al equipo de soporte técnico en un plazo máximo de 2 horas.
               tr
                 td.text-bold(data-aos="fade-down") 8
                 td(data-aos="fade-down") No está permitido usar dispositivos ajenos.
@@ -386,8 +386,8 @@
                 td(data-aos="fade-down")(style="background-color: #F6F6F6") Todo usuario es responsable del uso y resguardo físico de su equipo asignado, debiendo reportar cualquier daño o pérdida de inmediato al área de soporte técnico.
               tr
                 td.text-bold(data-aos="fade-down") 10
-                td(data-aos="fade-down") No se puede instalar software sin permiso.
-                td(data-aos="fade-down") La instalación de software en equipos corporativos está restringida al personal autorizado de TI y debe cumplir con la licencia correspondiente y evaluación de seguridad previa.
+                td(data-aos="fade-down") No se puede instalar <em>software</em> sin permiso.
+                td(data-aos="fade-down") La instalación de <em>software</em> en equipos corporativos está restringida al personal autorizado de TI y debe cumplir con la licencia correspondiente y evaluación de seguridad previa.
     
     .row.justify-content-center.mb-0
       .col-lg-11.col-12
@@ -462,8 +462,6 @@
               .col
                 figure(data-aos="fade-down")
                   img(src='@/assets/curso/temas/tema1/img19.jpg', alt='Imagen decorativa')
-
-
 </template>
 
 <script>

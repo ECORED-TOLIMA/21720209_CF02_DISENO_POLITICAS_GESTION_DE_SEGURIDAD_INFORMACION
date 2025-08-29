@@ -134,7 +134,7 @@ export default {
       tema: 'Gestión de políticas de seguridad de la información',
       referencia:
         'Acuña, G. (s.f.). Guía para escribir una política de Ciberseguridad en una empresa pequeña y mediana. Jaiva Technologies. https://jaivatechnologies.com/guia-para-politica-de-ciberseguridad-en-pequena-mediana-empresa/',
-      tipo: 'Sitio web',
+      tipo: 'Sitio <em>web</em>',
       link:
         'https://jaivatechnologies.com/guia-para-politica-de-ciberseguridad-en-pequena-mediana-empresa/',
     },
