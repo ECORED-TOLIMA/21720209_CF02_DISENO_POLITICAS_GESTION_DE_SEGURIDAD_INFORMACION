@@ -28,7 +28,7 @@
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.2 Diseño
     
-    .tarjeta.tarjeta--BG05.p-4.p-lg-5.mb-5
+    .tarjeta.tarjeta--BG05.p-3.p-lg-5.mb-3
       .col-12
         .row.justify-content-center
           .col-lg-8.col-12.order-lg-1.order-2
@@ -239,7 +239,7 @@
     #t_3_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.4 Comunicación
     
-    .tarjeta.tarjeta--BG03.p-4.p-lg-5.mb-0
+    .tarjeta.tarjeta--BG03.p-4.p-lg-3.mb-0
       .col-12
         .row.justify-content-center.mb-5
           .row.justify-content-center
@@ -322,25 +322,25 @@
 
     .row.mb-5(data-aos="flip-up")
       .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-01.p-4
+        .tarjeta-numerada.color-01.p-5
           .tarjeta-numerada__numero
             .h2 1
           p.text-center El proceso inicia con la planificación, allí se definen los recursos, responsables y el cronograma de ejecución.
 
       .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-02.p-4
+        .tarjeta-numerada.color-02.p-5
           .tarjeta-numerada__numero
             .h2 2
           p.text-center Luego sigue la comunicación y la socialización, lo cual puede incluir según las directrices de la empresa, capacitaciones, guías, reuniones, afiches o señalizaciones, entre otros.
 
       .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-03.p-4
+        .tarjeta-numerada.color-03.p-5
           .tarjeta-numerada__numero
             .h2.text-white 3
           p.text-center Acto seguido, se pone en marcha la puesta en práctica, asegurando que los controles y demás medidas que están en la política sean integradas a los procesos diarios. Es importante definir y mantener un sistema de seguimiento y medición, con indicadores claros que permitan evaluar el nivel de cumplimiento e identificar brechas o incumplimientos. 
 
       .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-04.p-4
+        .tarjeta-numerada.color-04.p-5
           .tarjeta-numerada__numero
             .h2 4
           p.text-center Por último, los resultados de este monitoreo alimentan el proceso de revisión y mejora, donde se revisa si se tienen que hacer ajustes a la política o a los procedimientos que cambian según el contexto, como nuevas amenazas o incidentes que han ocurrido después de implementada la política.
@@ -355,7 +355,7 @@
         .p-2
           h3.mb-0.ms-3 Ejemplo 1. Empresa agropecuaria El Buen Potrero
     
-    .tarjeta.tarjeta--C03.p-4.p-md-5.mb-5
+    .tarjeta.tarjeta--C06.p-4.p-md-5.mb-5
       SlyderB.mb-5.text-white(:datos="datosSlyder")
 
     .row.align-items-center.mb-5(data-aos="flip-up")

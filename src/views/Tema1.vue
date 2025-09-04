@@ -132,7 +132,7 @@
           .tarjeta-avatar-b__img.me-3.d-flex.justify-content-center.align-items-center(style="width:70px; height:70px; border-radius:50%")
             .col-lg-8
               img(src='@/assets/curso/temas/tema1/img04.svg' alt="Imagen decorativa")(style= "width: 100%")
-          .tarjeta.tarjeta--azul
+          .tarjeta.tarjeta--C02
             .py-4
               p.mb-0 Lograr estructurar las políticas de seguridad de la información, teniendo en cuenta los principales lineamientos, permiten su comprensión por parte de todos los interesados, facilitan su implementación, aseguran su alineación con la normativa vigente y la cultura organizacional.
 
@@ -249,91 +249,93 @@
 
     p.mb-5(data-aos="fade-down") Igualmente, y no menos importante, se relaciona otra serie de recomendaciones: 
 
-    LineaTiempoE.color-primario.mb-5
-      .row.justify-content-center(titulo="01" subtitulo="")
-        .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
-          h4 Establecer criterios medibles y verificables
-          ul.lista-ul--color.mb-0(data-aos="fade-down")
-            li.mb-0
-              i.fas.fa-asterisk
-              p.mb-0 Definir parámetros cuantitativos o plazos claros que permitan evaluar el cumplimiento.
-            li.mb-0
-              i.fas.fa-asterisk
-              p.mb-0 <b>Ejemplo</b>: actualizar los parches de seguridad en un plazo máximo de 48 horas desde su publicación oficial.
-        .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-down")
-          figure
-            img(src='@/assets/curso/temas/tema1/img12.svg', alt='Imagen decorativa')
-      .row.justify-content-center(titulo="02" subtitulo="")
-        .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
-          h4 Mantener coherencia con la normativa vigente
-          ul.lista-ul--color.mb-0(data-aos="fade-down")
-            li.mb-0
-              i.fas.fa-asterisk
-              p.mb-0 Alinear con la normatividad nacional o internacional que se exija para la empresa, según su naturaleza o actividad.
-            li.mb-0
-              i.fas.fa-asterisk
-              p.mb-0 Evitar contradicciones con reglamentos internos o leyes nacionales.
-            li.mb-0
-              i.fas.fa-asterisk
-              p.mb-0 <b>Ejemplo</b>: incluir en la política de protección de datos personales los lineamientos de la Ley 1581 de 2012.
-        .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-down")
-          figure
-            img(src='@/assets/curso/temas/tema1/img13.svg', alt='Imagen decorativa')
-      .row.justify-content-center(titulo="03" subtitulo="")
-        .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
-          h4 Redactar en voz activa
-          ul.lista-ul--color.mb-0(data-aos="fade-down")
-            li.mb-0
-              i.fas.fa-asterisk
-              p.mb-0 Usar estructuras que asignen responsabilidad directa.
-            li.mb-0
-              i.fas.fa-asterisk
-              p.mb-0 <b>Ejemplo</b>: “el jefe de seguridad debe aprobar las solicitudes de acceso”, en vez de “las solicitudes de acceso deberán ser aprobadas”.
-        .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-down")
-          figure
-            img(src='@/assets/curso/temas/tema1/img14.svg', alt='Imagen decorativa')
-      .row.justify-content-center(titulo="04" subtitulo="")
-        .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
-          h4 Incluir ejemplos prácticos cuando sea posible
-          ul.lista-ul--color.mb-0(data-aos="fade-down")
-            li.mb-0
-              i.fas.fa-asterisk
-              p.mb-0 Facilitar la comprensión, sobre todo en personal sin experiencia técnica, que, por lo general, terminan siendo los eslabones más débiles de la cadena y por donde más fácil se dan las filtraciones o fallos de seguridad.
-            li.mb-0
-              i.fas.fa-asterisk
-              p.mb-0 <b>Ejemplo</b>: en una política de uso de contraseñas, incluir una contraseña robusta y una lista de prácticas prohibidas.
-        .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-down")
-          figure
-            img(src='@/assets/curso/temas/tema1/img15.svg', alt='Imagen decorativa')
-      .row.justify-content-center(titulo="05" subtitulo="")
-        .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
-          h4 Evitar cláusulas demasiado generales
-          ul.lista-ul--color.mb-0(data-aos="fade-down")
-            li.mb-0
-              i.fas.fa-asterisk
-              p.mb-0 No redactar políticas tan amplias que no se puedan supervisar o medir.
-            li.mb-0
-              i.fas.fa-asterisk
-              p.mb-0 Si un tema es complejo, dividirlo en subpolíticas específicas.
-            li.mb-0
-              i.fas.fa-asterisk
-              p.mb-0 <b>Ejemplo</b>: separar la “política de control de acceso” de la “política de gestión de contraseñas”, en lugar de fusionarlas de forma vaga.
-        .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-down")
-          figure
-            img(src='@/assets/curso/temas/tema1/img16.svg', alt='Imagen decorativa')
-      .row.justify-content-center(titulo="06" subtitulo="")
-        .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
-          h4 Revisar y validar antes de publicar
-          ul.lista-ul--color.mb-0(data-aos="fade-down")
-            li.mb-0
-              i.fas.fa-asterisk
-              p.mb-0 Probar las políticas con un grupo reducido de empleados en la empresa, para verificar que se entiendan y que sean aplicables.
-            li.mb-0
-              i.fas.fa-asterisk
-              p.mb-0 <b>Ejemplo</b>: aplicar la política de control de accesos durante una semana en el área de contabilidad, recopilar sus observaciones y ajustar el documento antes de su aprobación oficial.
-        .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-down")
-          figure
-            img(src='@/assets/curso/temas/tema1/img17.svg', alt='Imagen decorativa')
+    .row
+      .col-lg-10.col-12
+        LineaTiempoE.color-primario.mb-5
+          .row.justify-content-center(titulo="01" subtitulo="")
+            .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
+              h4 Establecer criterios medibles y verificables
+              ul.lista-ul--color.mb-0(data-aos="fade-down")
+                li.mb-0
+                  i.fas.fa-asterisk
+                  p.mb-0 Definir parámetros cuantitativos o plazos claros que permitan evaluar el cumplimiento.
+                li.mb-0
+                  i.fas.fa-asterisk
+                  p.mb-0 <b>Ejemplo</b>: actualizar los parches de seguridad en un plazo máximo de 48 horas desde su publicación oficial.
+            .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-down")
+              figure
+                img(src='@/assets/curso/temas/tema1/img12.svg', alt='Imagen decorativa')
+          .row.justify-content-center(titulo="02" subtitulo="")
+            .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
+              h4 Mantener coherencia con la normativa vigente
+              ul.lista-ul--color.mb-0(data-aos="fade-down")
+                li.mb-0
+                  i.fas.fa-asterisk
+                  p.mb-0 Alinear con la normatividad nacional o internacional que se exija para la empresa, según su naturaleza o actividad.
+                li.mb-0
+                  i.fas.fa-asterisk
+                  p.mb-0 Evitar contradicciones con reglamentos internos o leyes nacionales.
+                li.mb-0
+                  i.fas.fa-asterisk
+                  p.mb-0 <b>Ejemplo</b>: incluir en la política de protección de datos personales los lineamientos de la Ley 1581 de 2012.
+            .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-down")
+              figure
+                img(src='@/assets/curso/temas/tema1/img13.svg', alt='Imagen decorativa')
+          .row.justify-content-center(titulo="03" subtitulo="")
+            .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
+              h4 Redactar en voz activa
+              ul.lista-ul--color.mb-0(data-aos="fade-down")
+                li.mb-0
+                  i.fas.fa-asterisk
+                  p.mb-0 Usar estructuras que asignen responsabilidad directa.
+                li.mb-0
+                  i.fas.fa-asterisk
+                  p.mb-0 <b>Ejemplo</b>: “el jefe de seguridad debe aprobar las solicitudes de acceso”, en vez de “las solicitudes de acceso deberán ser aprobadas”.
+            .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-down")
+              figure
+                img(src='@/assets/curso/temas/tema1/img14.svg', alt='Imagen decorativa')
+          .row.justify-content-center(titulo="04" subtitulo="")
+            .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
+              h4 Incluir ejemplos prácticos cuando sea posible
+              ul.lista-ul--color.mb-0(data-aos="fade-down")
+                li.mb-0
+                  i.fas.fa-asterisk
+                  p.mb-0 Facilitar la comprensión, sobre todo en personal sin experiencia técnica, que, por lo general, terminan siendo los eslabones más débiles de la cadena y por donde más fácil se dan las filtraciones o fallos de seguridad.
+                li.mb-0
+                  i.fas.fa-asterisk
+                  p.mb-0 <b>Ejemplo</b>: en una política de uso de contraseñas, incluir una contraseña robusta y una lista de prácticas prohibidas.
+            .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-down")
+              figure
+                img(src='@/assets/curso/temas/tema1/img15.svg', alt='Imagen decorativa')
+          .row.justify-content-center(titulo="05" subtitulo="")
+            .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
+              h4 Evitar cláusulas demasiado generales
+              ul.lista-ul--color.mb-0(data-aos="fade-down")
+                li.mb-0
+                  i.fas.fa-asterisk
+                  p.mb-0 No redactar políticas tan amplias que no se puedan supervisar o medir.
+                li.mb-0
+                  i.fas.fa-asterisk
+                  p.mb-0 Si un tema es complejo, dividirlo en subpolíticas específicas.
+                li.mb-0
+                  i.fas.fa-asterisk
+                  p.mb-0 <b>Ejemplo</b>: separar la “política de control de acceso” de la “política de gestión de contraseñas”, en lugar de fusionarlas de forma vaga.
+            .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-down")
+              figure
+                img(src='@/assets/curso/temas/tema1/img16.svg', alt='Imagen decorativa')
+          .row.justify-content-center(titulo="06" subtitulo="")
+            .col-lg-10.mb-4.mb-lg-0.order-lg-2.order-2(data-aos="fade-down")
+              h4 Revisar y validar antes de publicar
+              ul.lista-ul--color.mb-0(data-aos="fade-down")
+                li.mb-0
+                  i.fas.fa-asterisk
+                  p.mb-0 Probar las políticas con un grupo reducido de empleados en la empresa, para verificar que se entiendan y que sean aplicables.
+                li.mb-0
+                  i.fas.fa-asterisk
+                  p.mb-0 <b>Ejemplo</b>: aplicar la política de control de accesos durante una semana en el área de contabilidad, recopilar sus observaciones y ajustar el documento antes de su aprobación oficial.
+            .col-lg-2.col-6.order-lg-1.order-1.mb-3(data-aos="fade-down")
+              figure
+                img(src='@/assets/curso/temas/tema1/img17.svg', alt='Imagen decorativa')
 
     p.mb-5(data-aos="fade-down") Conociendo las recomendaciones previamente dadas, a continuación, se presenta una tabla comparativa que ilustra ejemplos de políticas redactadas de forma incorrecta y correcta. De esta forma, se podrán identificar errores comunes y reconocer las prácticas adecuadas en su formulación. Su análisis servirá para facilitar la creación de políticas claras, precisas y efectivas para la organización: 
 

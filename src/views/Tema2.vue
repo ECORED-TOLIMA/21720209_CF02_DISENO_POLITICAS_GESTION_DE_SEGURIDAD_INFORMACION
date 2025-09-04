@@ -88,12 +88,12 @@
       h2 2.2 Importancia
     
     .row.justify-content-center.mb-5
-      .col-lg-10.col-12
+      .col-12
         .row.justify-content-center.mb-5
-          .col-lg-6.col-12.order-lg-1.order-2
+          .col-lg-5.col-12.order-lg-1.order-2
             figure(data-aos="fade-up")
               img(src='@/assets/curso/temas/tema2/img05.svg', alt='Imagen decorativa')
-          .col-lg-6.col-12.order-lg-1.order-2
+          .col-lg-7.col-12.order-lg-1.order-2
             .bloque-texto-b.color-primario.p-4
               .bloque-texto-b__texto                
                 p(data-aos="fade-up") La importancia de los objetivos de seguridad de la información, radica principalmente en que se convierten en la guía o la hoja de ruta que marca el rumbo para la protección de los activos de información más valiosos para una organización o empresa. Su correcta formulación, permite alinear la seguridad con las estrategias del negocio, con lo que garantizan la confidencialidad, integridad y disponibilidad de los datos.
@@ -259,7 +259,7 @@
       .col-lg-10.col-12
         PasosA.color-primario.mb-5(tipo="n")
           .row.justify-content-center
-            .col-lg-6.order-lg-1.order-2(data-aos="fade-down")
+            .col-lg-8.order-lg-1.order-2(data-aos="fade-down")
               h4 Análisis del contexto organizacional
               p Aquí se recomienda identificar el tipo de información que se maneja, los riesgos y las amenazas, los requisitos legales y la normativa aplicable. 
               p.mb-0 <b>Ejemplo</b>: la empresa maneja datos sobre producción, ventas y salud del ganado y debe cumplir con la Ley 1581 de 2012 sobre protección de datos.
@@ -273,7 +273,7 @@
               p Se asegura que los objetivos respalden los principios y directrices establecidos en la política general de la organización.
               p.mb-0 <b>Ejemplo</b>: si la política establece (proteger la información crítica de la empresa), un objetivo podría ser: implementar un sistema de copias de seguridad semanal.
           .row.justify-content-center
-            .col-lg-6.order-lg-1.order-2(data-aos="fade-down")
+            .col-lg-8.order-lg-1.order-2(data-aos="fade-down")
               h4 Definición de objetivos SMART
               p Los objetivos deben ser específicos, medibles, alcanzables, relevantes y con un tiempo definido. Más adelante se profundizará en esta técnica, la cual es recomendable para la construcción de los objetivos.
               p.mb-0 <b>Ejemplo</b>: reducir en un 30 % los incidentes de pérdida de datos en 12 meses.
@@ -287,7 +287,7 @@
               p Se determina quién liderará cada objetivo y qué recursos (humanos, tecnológicos, financieros) serán los necesarios para ello.
               p.mb-0 <b>Ejemplo</b>: el jefe de TI será responsable de la implementación del control de accesos.
           .row.justify-content-center
-            .col-lg-6.order-lg-1.order-2(data-aos="fade-down")
+            .col-lg-8.order-lg-1.order-2(data-aos="fade-down")
               h4 Plan de seguimiento y evaluación
               p En esta parte se establecen indicadores y métodos para medir el avance y cumplimiento de los objetivos. 
               p.mb-0 <b>Ejemplo</b>: indicador: número de incidentes de acceso no autorizado detectados mensualmente.
@@ -305,11 +305,11 @@
         p.mb-4(data-aos="fade-down") Dicha metodología, se explica a continuación:
 
     .row.justify-content-center
-      .col-12.mb-4
-        figure.movil
+      .col-12.mb-4.movil
+        figure
           img(src='@/assets/curso/temas/tema2/img22.svg', alt='Imagen decorativa')
-      .col-lg-10.col-12
-        ImagenInfografica.color-acento-botones.desktop(data-aos="zoom-in")
+      .col-lg-10.col-12.desktop
+        ImagenInfografica.color-acento-botones(data-aos="zoom-in")
           template(v-slot:imagen)
             figure.mb-5
               img(src='@/assets/curso/temas/tema2/img23.svg', alt="Imagen decorativa")
