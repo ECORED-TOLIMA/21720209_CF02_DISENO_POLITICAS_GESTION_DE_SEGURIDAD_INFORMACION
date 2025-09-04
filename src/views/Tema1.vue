@@ -27,6 +27,8 @@
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.1 Concepto
     
+    p.mb-5(data-aos="fade-down") En este apartado se explorará el concepto de una política de seguridad de la información, con el fin de que puedan entender mucho mejor su propósito, alcance e importancia dentro de una organización; por ello, a continuación, se presentan diferentes definiciones formales (autores) y una más informal (propia) para facilitar su comprensión:
+    
     .row.justify-content-center.mb-5(data-aos="flip-up")(style="display: flex; width: 100%; margin: auto;")
       .col-lg-8.col-12.mb-md-0
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--C01")
@@ -339,7 +341,7 @@
       .col
         .titulo-sexto.color-acento-contenido
           h5 Tabla 2.
-          span <em>Lineamientos de la estructura de una política de seguridad de la información</em>
+          span <em>Políticas redactadas de forma correcta e incorrecta</em>
         .tabla-a.color-acento-contenido
           table
             thead

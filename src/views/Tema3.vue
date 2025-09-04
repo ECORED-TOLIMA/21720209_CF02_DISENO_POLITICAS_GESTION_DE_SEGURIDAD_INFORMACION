@@ -418,7 +418,7 @@
                 ul.lista-ul--color
                   li(data-aos="fade-right") 
                     i.lista-ul__vineta
-                    p.mb-0 Auditorías quincenales de commits en repositorios para detectar cambios no autorizados.
+                    p.mb-0 Auditorías quincenales de <em>commits</em> en repositorios para detectar cambios no autorizados.
                   li(data-aos="fade-right") 
                     i.lista-ul__vineta
                     p.mb-0 Evaluaciones trimestrales de cumplimiento de las prácticas seguras por parte de los desarrolladores.
@@ -469,12 +469,12 @@ export default {
     // variables de vue
     datosSlyder: [
       {
-        titulo: 'Comunicación y socialización',
+        titulo: 'Planificación',
         texto: `
           <ul> 
             <li> El gerente y el encargado de TI definen un plan para implementar la política de seguridad de la información, asignando un presupuesto básico para capacitación y controles físicos.</li>
             <p></p>
-            <li> El gerente y el encargado de TI definen un plan para implementar la política de seguridad de la información, asignando un presupuesto básico para capacitación y controles físicos.</li>
+            <li> Se identifican los recursos: cerraduras para áreas críticas, software de gestión de datos de animales y protocolos de copia de seguridad semanal.</li>
           </ul> 
           `,
         imagen: require('@/assets/curso/temas/tema3/img23.jpg'),
@@ -520,7 +520,7 @@ export default {
         titulo: 'Revisión y mejora',
         texto: `
           <ul> 
-            <li>Ajustes a los protocolos luego de detectar que los backups no estaban siendo verificados.</li>
+            <li>Ajustes a los protocolos luego de detectar que los <em>backups</em> no estaban siendo verificados.</li>
             <p></p>
             <li>Inclusión de capacitación anual obligatoria sobre manejo seguro de información.</li>
           </ul> 

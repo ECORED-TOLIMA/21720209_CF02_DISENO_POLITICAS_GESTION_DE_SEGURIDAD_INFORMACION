@@ -125,7 +125,7 @@ export default {
     {
       tema: 'Políticas de seguridad de la información',
       referencia:
-        'Cámara de Comercio de Honda. (s.f.). Política de seguridad. https://www.camarahonda.org.co/wp-content/uploads/2017/09/ POLITICADESEGURIDADDELAINFORMACION.pdf',
+        'Cámara de Comercio de Honda. (s.f.). <em>Política de seguridad</em>. https://www.camarahonda.org.co/wp-content/uploads/2017/09/ POLITICADESEGURIDADDELAINFORMACION.pdf',
       tipo: 'Documento',
       link:
         'https://www.camarahonda.org.co/wp-content/uploads/2017/09/POLITICADESEGURIDADDELAINFORMACION.pdf',
@@ -133,7 +133,7 @@ export default {
     {
       tema: 'Gestión de políticas de seguridad de la información',
       referencia:
-        'Acuña, G. (s.f.). Guía para escribir una política de Ciberseguridad en una empresa pequeña y mediana. Jaiva Technologies. https://jaivatechnologies.com/guia-para-politica-de-ciberseguridad-en-pequena-mediana-empresa/',
+        'Acuña, G. (s.f.). <em>Guía para escribir una política de Ciberseguridad en una empresa pequeña y mediana</em>. Jaiva Technologies. https://jaivatechnologies.com/guia-para-politica-de-ciberseguridad-en-pequena-mediana-empresa/',
       tipo: 'Sitio <em>web</em>',
       link:
         'https://jaivatechnologies.com/guia-para-politica-de-ciberseguridad-en-pequena-mediana-empresa/',
@@ -141,7 +141,7 @@ export default {
     {
       tema: 'Proceso de implementación',
       referencia:
-        'LATAM Certificaciones TI. (2025, 10 de julio). CISO: Seguridad de la Información: Plan de Implementación de Controles y Política de Seguridad de TI [Video]. YouTube. https://www.youtube.com/watch?v=O3I8FXam9FE',
+        'LATAM Certificaciones TI. (2025, 10 de julio). <em>CISO: Seguridad de la Información: Plan de Implementación de Controles y Política de Seguridad de TI</em> [Video]. YouTube. https://www.youtube.com/watch?v=O3I8FXam9FE',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=O3I8FXam9FE',
     },
@@ -191,56 +191,57 @@ export default {
   referencias: [
     {
       referencia:
-        'CYBERZONI. (s.f.). ISO27001 control 5.1 policies for information security.',
+        'CYBERZONI. (s.f.). <em>ISO27001 control 5.1 policies for information security</em>.',
       link: 'https://cyberzoni.com/standards/iso-27001/control-5-1/',
     },
     {
       referencia:
-        'Duran, L. (2025, 11 de febrero). ¿Cómo se elabora la política general de seguridad? Docusign.com.',
+        'Duran, L. (2025, 11 de febrero). <em>¿Cómo se elabora la política general de seguridad?</em> Docusign.com.',
       link:
         'https://www.docusign.com/es-mx/blog/desarrolladores/politica-seguridad',
     },
     {
       referencia:
-        'Escuela Europea de Excelencia (EEE). (2022, 25 de octubre). Objetivos de seguridad de la información: guía de implementación para sistemas ISO 27001.',
+        'Escuela Europea de Excelencia (EEE). (2022, 25 de octubre). <em>Objetivos de seguridad de la información: guía de implementación para sistemas ISO 27001</em>.',
       link:
         'https://www.escuelaeuropeaexcelencia.com/2022/10/objetivos-de-seguridad-de-la-informacion-guia-de-implementacion-para-sistemas-iso-27001/',
     },
     {
       referencia:
-        'ESGinnova. (s.f.). 6.2. Objetivos de Seguridad de la información y planes para lograrlos.',
+        'ESGinnova. (s.f.). 6.2. <em>Objetivos de Seguridad de la información y planes para lograrlos</em>.',
       link:
         'https://www.pmg-ssi.com/norma-27001/6-2-objetivos-de-seguridad-de-la-informacion-y-planes-para-lograrlos/',
     },
     {
-      referencia: 'Fortinet. (s.f.). ¿Qué es una política de seguridad de TI?',
+      referencia:
+        'Fortinet. (s.f.). <em>¿Qué es una política de seguridad de TI?</em>',
       link:
         'https://www.fortinet.com/lat/resources/cyberglossary/it-security-policy',
     },
     {
       referencia:
-        'Función Pública. (2020, marzo). Políticas de Operación Proceso de Tecnologías de la Información.',
+        'Función Pública. (2020, marzo). <em>Políticas de Operación Proceso de Tecnologías de la Información</em>.',
       link:
         'https://www1.funcionpublica.gov.co/documents/418537/36701283/politica-de-seguridad-de-la-informacion.pdf.pdf/325019e5-a92f-0b44-3676-2356bd71240c?',
     },
     {
-      referencia: 'Morgan Hill. (s.f.). ISO/IEC 27002:2022.',
+      referencia: 'Morgan Hill. (s.f.). <em>ISO/IEC 27002:2022</em>.',
       link:
         'https://www.morganhillcg.com/blog/item/iso-iec-27002-2022-5-1-policies-for-information-security-template',
     },
     {
-      referencia: 'Orsys. (s.f.). Política de seguridad.',
+      referencia: 'Orsys. (s.f.). <em>Política de seguridad</em>.',
       link:
         'https://www.orsys.fr/orsys-lemag/es/glosario/politica-de-seguridad-%F0%9F%9F%A9-documento/',
     },
     {
       referencia:
-        'Parker, A. (s.f.). ISO 27001 control 5.1: Policies for information security. Iseo Blue.',
+        'Parker, A. (s.f.). <em>ISO 27001 control 5.1: Policies for information security</em>. Iseo Blue.',
       link: 'https://iseoblue.com/post/iso-27001-control-5-1/',
     },
     {
       referencia:
-        'Piranirisk. (2022). Guía para hacer una Política de Seguridad de la Información.',
+        'Piranirisk. (2022). <em>Guía para hacer una Política de Seguridad de la Información</em>.',
       link:
         'https://www.piranirisk.com/es/academia/especiales/guia-politica-de-seguridad-de-la-informacion',
     },

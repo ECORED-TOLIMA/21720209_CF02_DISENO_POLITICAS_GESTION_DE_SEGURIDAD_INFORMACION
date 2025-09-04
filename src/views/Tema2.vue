@@ -49,7 +49,7 @@
       .col
         .titulo-sexto.color-acento-contenido
           h5 Tabla 3.
-          span <em>Lineamientos de la estructura de una política de seguridad de la información</em>
+          span <em>Ejemplos de objetivos de seguridad de la información</em>
         .tabla-a.color-acento-contenido
           table
             thead
