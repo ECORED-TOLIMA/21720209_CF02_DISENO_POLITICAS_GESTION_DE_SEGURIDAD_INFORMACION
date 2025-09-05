@@ -7,7 +7,7 @@
         span 2
       h1 Objetivos de seguridad de la información
     
-    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="flip-up")
+    .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-up")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img01.jpg')})`}"
       )
@@ -79,8 +79,8 @@
           .tarjeta-avatar-b__img.me-3.d-flex.justify-content-center.align-items-center(style="width:70px; height:70px; border-radius:50%")
             .col-lg-8
               img(src='@/assets/curso/temas/tema2/img04.svg' alt="Imagen decorativa")(style= "width: 100%")
-          .tarjeta.tarjeta--C02.py-3
-            .p-3
+          .tarjeta.tarjeta--C02
+            .p-4
               p.mb-0 Conocer diferentes enfoques, facilita el conectarse con una visión más completa, lo que ayuda a interpretar y aplicar los objetivos de una mejor manera; esto, con el fin de lograr lo que se busca con ellos, que es proteger la información y fortalecer la confianza organizacional. 
 
     separador
@@ -100,7 +100,7 @@
         p(data-aos="fade-down") La aplicación adecuada de estos objetivos, ayuda a aplicar los siguientes procesos: 
     
     .row.mb-5
-      .col-lg-4.col-lg.mb-5.mb-lg-0(data-aos="flip-up")
+      .col-lg-4.col-lg.mb-4.mb-lg-0(data-aos="flip-up")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema2/img06.svg' alt='AvatarTop')
           .tarjeta.tarjeta--C05(style= "width: 100%")
@@ -108,7 +108,7 @@
               h4.text-center Mitigación
               p.mb-0.text-center Unos objetivos bien formulados, permiten priorizar recursos, definir controles adecuados, cumplir con normativa ajustada vigente y reducir la probabilidad e impacto de los incidentes.
 
-      .col-lg-4.col-lg.mb-5.mb-lg-0(data-aos="flip-up")
+      .col-lg-4.col-lg.mb-4.mb-lg-0(data-aos="flip-up")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema2/img07.svg' alt='AvatarTop')
           .tarjeta.tarjeta--C05(style= "width: 100%")
@@ -116,7 +116,7 @@
               h4.text-center Confianza
               p.mb-0.text-center En todos los interesados, tales como los clientes, los aliados estratégicos, los empleados y el resto de todas las partes interesadas, demostrando con ello el compromiso que tiene la empresa con la gestión responsable de la información. 
 
-      .col-lg-4.col-lg.mb-5.mb-lg-0(data-aos="flip-up")
+      .col-lg-4.col-lg(data-aos="flip-up")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema2/img08.svg' alt='AvatarTop')
           .tarjeta.tarjeta--C05(style= "width: 100%")
@@ -130,48 +130,48 @@
       .col-lg-10.col-12
         LineaTiempoD.color-acento-botones.especial
           .row.mb-0(numero="1" titulo="Prevención de incidentes")
-            .col-12.mb-4.mb-md-0.mb-5
+            .col-12
               p Definir objetivos claros reduce la probabilidad de ataques cibernéticos, fugas de información o errores humanos.
-            .col-12.mb-4.mb-md-0.mb-0
+            .col-12.mb-4
               .tarjeta.tarjeta--blanca.p-4
-                p <b>Ejemplo</b>: implementar un objetivo para que el 100 % de los empleados cambien sus contraseñas cada 90 días puede disminuir accesos indebidos.
+                p.mb-0 <b>Ejemplo</b>: implementar un objetivo para que el 100 % de los empleados cambien sus contraseñas cada 90 días puede disminuir accesos indebidos.
             .col-12.mb-0(data-aos="fade-up")
               figure
                 img(src='@/assets/curso/temas/tema2/img09.jpg', alt='Imagen decorativa')
 
           .row.mb-0(numero="2" titulo="Cumplimiento normativo")
-            .col-12.mb-4.mb-md-0.mb-5
+            .col-12
               p Facilitan la adaptación a leyes como la Ley 1581 de 2012 (protección de datos personales) o estándares como ISO/IEC 27001.
-            .col-12.mb-4.mb-md-0.mb-0
+            .col-12.mb-4
               .tarjeta.tarjeta--blanca.p-4
-                p <b>Ejemplo</b>: tener un objetivo de cumplir al 100 % con la Ley 1581 evita sanciones de la Superintendencia de Industria y Comercio.
+                p.mb-0 <b>Ejemplo</b>: tener un objetivo de cumplir al 100 % con la Ley 1581 evita sanciones de la Superintendencia de Industria y Comercio.
             .col-12.mb-0(data-aos="fade-up")
               figure
                 img(src='@/assets/curso/temas/tema2/img10.jpg', alt='Imagen decorativa')
           .row.mb-0(numero="3" titulo="Alineación con la gestión de riesgos")
-            .col-12.mb-4.mb-md-0.mb-5
+            .col-12
               p Permiten que la seguridad de la información esté integrada con el plan de gestión de riesgos de la empresa.
-            .col-12.mb-4.mb-md-0.mb-0
+            .col-12.mb-4
               .tarjeta.tarjeta--blanca.p-4
-                p <b>Ejemplo</b>: si el área de riesgos detecta que el acceso físico a los servidores no está controlado, un objetivo puede ser instalar cerraduras electrónicas en 30 días.
+                p.mb-0 <b>Ejemplo</b>: si el área de riesgos detecta que el acceso físico a los servidores no está controlado, un objetivo puede ser instalar cerraduras electrónicas en 30 días.
             .col-12.mb-0(data-aos="fade-up")
               figure
                 img(src='@/assets/curso/temas/tema2/img11.jpg', alt='Imagen decorativa')
           .row.mb-0(numero="4" titulo="Mejora continua")
-            .col-12.mb-4.mb-md-0.mb-5
+            .col-12
               p Los objetivos sirven como indicadores que permiten medir y mejorar continuamente los procesos de seguridad.
-            .col-12.mb-4.mb-md-0.mb-0
+            .col-12.mb-4
               .tarjeta.tarjeta--blanca.p-4
-                p <b>Ejemplo</b>: reducir las incidencias de <em>malware</em> en un 60 % mediante campañas internas de concientización.
+                p.mb-0 <b>Ejemplo</b>: reducir las incidencias de <em>malware</em> en un 60 % mediante campañas internas de concientización.
             .col-12.mb-0(data-aos="fade-up")
               figure
                 img(src='@/assets/curso/temas/tema2/img12.jpg', alt='Imagen decorativa')
           .row.mb-0(numero="5" titulo="Reputación y confianza")
-            .col-12.mb-4.mb-md-0.mb-5
+            .col-12
               p Cumplir objetivos de seguridad refuerza la imagen de la empresa y la confianza de clientes y socios.
-            .col-12.mb-4.mb-md-0.mb-0
+            .col-12.mb-4
               .tarjeta.tarjeta--blanca.p-4
-                p <b>Ejemplo</b>: garantizar la protección de datos en operaciones en línea, ayuda a ganar la confianza de nuevos clientes.
+                p.mb-0 <b>Ejemplo</b>: garantizar la protección de datos en operaciones en línea, ayuda a ganar la confianza de nuevos clientes.
             .col-12.mb-0(data-aos="fade-up")
               figure
                 img(src='@/assets/curso/temas/tema2/img13.jpg', alt='Imagen decorativa')
@@ -239,14 +239,14 @@
                 td(data-aos="fade-down") Se debe definir qué se hará, qué recursos se usarán, quién será responsable, los plazos y los criterios de evaluación.
                 td(data-aos="fade-down") Plan para implantar autenticación multifactor en todos los sistemas: asignar responsable del área de TI, presupuesto para licencias, fecha de ejecución y auditoría final para validar cumplimiento.
     
-    .tarjeta.tarjeta--BG03.p-4.p-lg-5.mb-0
+    .tarjeta.tarjeta--BG03.px-4.px-lg-5.mb-4
       .col-12
         .row.justify-content-center
           .col-lg-10.col-12
             .row.justify-content-center
               .col-lg-6.col-12.order-lg-1.order-2
-                p(data-aos="fade-down") Ceñirse a estos requisitos, garantiza que los objetivos formulados en su mayoría sean claros, medibles, alcanzables y que estén alineados con la cultura organizacional de la empresa. Tenerlos en cuenta y trabajar con ellos, no solo demuestra conformidad con estándares internacionales como la ISO/IEC 27001, sino que da facilidades para su seguimiento y para mantener una mejora continua, demostrando que los objetivos terminan convertidos en herramientas confiables y efectivas para proteger los activos de información de la empresa y responder oportunamente ante los riesgos que puedan encontrarse en el camino. 
-              .col-lg-6.col-12.order-lg-2.order-1.mb-3
+                p.mb-0(data-aos="fade-down") Ceñirse a estos requisitos, garantiza que los objetivos formulados en su mayoría sean claros, medibles, alcanzables y que estén alineados con la cultura organizacional de la empresa. Tenerlos en cuenta y trabajar con ellos, no solo demuestra conformidad con estándares internacionales como la ISO/IEC 27001, sino que da facilidades para su seguimiento y para mantener una mejora continua, demostrando que los objetivos terminan convertidos en herramientas confiables y efectivas para proteger los activos de información de la empresa y responder oportunamente ante los riesgos que puedan encontrarse en el camino. 
+              .col-lg-6.col-12.order-lg-2.order-1.mb-lg-0.mb-3
                 figure(data-aos="fade-up")
                   img(src='@/assets/curso/temas/tema2/img15.png', alt='Imagen decorativa')
     separador
@@ -256,8 +256,8 @@
     p.mb-5(data-aos="fade-down") El diseño de objetivos, requiere un enfoque sistemático que asegure su alineación con la cultura organizacional y con la normativa vigente; por lo tanto, una metodología bien estructurada ayuda en la construcción de objetivos claros, medibles y sobre todo realistas, garantizando su evaluación y mejora continua. Se recomienda tener en cuenta las siguientes directrices para trabajar en la construcción de los objetivos: 
 
     .row.justify-content-center
-      .col-lg-10.col-12
-        PasosA.color-primario.mb-5(tipo="n")
+      .col-lg-10
+        PasosA.color-primario.mb-4(tipo="n")
           .row.justify-content-center
             .col-lg-8.order-lg-1.order-2(data-aos="fade-down")
               h4 Análisis del contexto organizacional

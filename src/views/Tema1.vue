@@ -17,7 +17,7 @@
         p(data-aos="fade-down") Representan el pilar sobre el cual se va a definir, organizar y regular la protección de los activos de información en una organización. Las políticas no se limitan solo a ser unos documentos formales, por el contrario, representan compromisos estratégicos que guían la ruta que tiene que seguir el personal, frente a las amenazas y los riesgos. A través de ellas, se establecen los principios, los lineamientos y las responsabilidades que orientan la gestión de la seguridad, buscando que las decisiones y acciones que se tomen, estén alineadas con los objetivos organizacionales. Entender su importancia y su correcta formulación, es fundamental para fortalecer la entereza de la empresa y garantizar la continuidad del negocio en un entorno cada vez más digitalizado y expuesto a incidentes.
         .cajon.cajon.C01.px-4.py-4
           .row.justify-content-center
-            .col-auto
+            .col-auto.col-4.mb-lg-0.mb-4
               figure(data-aos="fade-down")
                 img(src='@/assets/curso/temas/tema1/img02.svg', alt='Imagen decorativa')
             .col-lg-10.col-12

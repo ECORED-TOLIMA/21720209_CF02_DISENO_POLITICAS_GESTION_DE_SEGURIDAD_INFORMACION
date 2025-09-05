@@ -28,34 +28,34 @@
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.2 Diseño
     
-    .tarjeta.tarjeta--BG05.p-3.p-lg-5.mb-3
+    .tarjeta.tarjeta--BG05.px-lg-5.px-4.py-2.mb-4
       .col-12
         .row.justify-content-center
-          .col-lg-8.col-12.order-lg-1.order-2
+          .col-lg-8.order-lg-1.order-2
             p(data-aos="fade-down") El diseño de una política de seguridad de la información, debe ser intencional y adaptarse al contexto de la organización. Según la norma ISO/IEC 27001, la alta dirección tiene la responsabilidad de asegurar que la política se ajuste al propósito de la organización, incluya los objetivos de seguridad, refleje el compromiso de mejora continua y, sobre todo, cumpla con los requisitos aplicables. De igual manera, la norma ISO/IEC 27002, establece que estas políticas específicas, tienen que estar bien definidas, redactadas de manera formal, contar con la aprobación de las directivas, comunicarse eficazmente con el personal responsable o al que corresponda y someterse a revisiones periódicas en periodos planificados (Morgan Hill, s.f.).
             p(data-aos="fade-down") El diseño tiene que incluir componentes claros como el propósito, el alcance, los roles y las responsabilidades; además de los fundamentos que justifican su existencia. No se puede olvidar, que tiene que equilibrarse la seguridad con la productividad, involucrando a los actores clave y estar documentada para facilitar su aplicación práctica.
             .cajon.cajon.C02.color-secundario.p-4
               p.mb-0(data-aos="fade-down") Aunque ya se ha mencionado la relevancia de las políticas de seguridad de la información, en este punto se retoma el tema desde la perspectiva de la ISO/IEC 27002. No basta con reconocer qué es una política y su función dentro del SGSI, ya que resulta imprescindible comprender los pasos formales que aseguran su adecuada definición, aprobación, comunicación y revisión, de manera que se garantice una correcta implementación alineada con las necesidades organizativas.
-          .col-lg-4.col-12.order-lg-2.order-1.mb-3
+          .col-lg-4.order-lg-2.order-1.mb-4
             figure(data-aos="fade-up")
               img(src='@/assets/curso/temas/tema3/img03.png', alt='Imagen decorativa')
     
-    p.mb-0(data-aos="fade-down") Es por ello, que en este apartado se profundiza en la aplicación práctica y normativa que orienta el diseño de políticas, destacando no solo su formulación, sino también los mecanismos para mantenerlas actualizadas y efectivas, frente a los cambios del entorno y los riesgos emergentes, lo que refuerza su papel estratégico dentro de la gestión de seguridad de la información.
+    p(data-aos="fade-down") Es por ello, que en este apartado se profundiza en la aplicación práctica y normativa que orienta el diseño de políticas, destacando no solo su formulación, sino también los mecanismos para mantenerlas actualizadas y efectivas, frente a los cambios del entorno y los riesgos emergentes, lo que refuerza su papel estratégico dentro de la gestión de seguridad de la información.
 
     separador
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.3 Aprobación
     
     .row.justify-content-center.mb-5
-      .col-lg-10.col-12
+      .col-lg-10
         .row.justify-content-center.mb-5
-          .col-lg-4.col-12.order-lg-1.order-2
+          .col-lg-4.col-8.order-lg-1.order-2
             figure(data-aos="fade-up")
               img(src='@/assets/curso/temas/tema3/img04.svg', alt='Imagen decorativa')
           .col-lg-8.col-12.order-lg-1.order-2
             p(data-aos="fade-up") El proceso de aprobación formal de las políticas de seguridad, es indispensable para darles legalidad, coherencia estratégica y respaldo institucional; por ello, según el ítem Control 5.1 de la ISO/IEC 27001, las políticas generales deben estar definidas y aprobadas por la alta dirección o quien haga sus veces (CYBERZONI, s.f.). Esta aprobación demuestra el compromiso que tiene la empresa con la seguridad y establece una base sólida para su gestión.
-            p(data-aos="fade-up") Cuando se habla de las políticas específicas por área, como control de accesos, respaldo o uso aceptable, ISO permite que estas no tengan que ser aprobadas necesariamente por la alta dirección, sino que por el contrario, estas aprobaciones pueden darse por niveles administrativos con menor relevancia, como por citar al jefe de área o el director de algún departamento en particular, siempre que sea competente y cuente con autoridad para ello (Parker, s.f.), lo que facilita una implementación más ágil y alineada con la estructura organizacional.
-        p(data-aos="fade-down") Para entender mejor los procesos de aprobación, se relacionan algunos ejemplos: 
+            p.mb-0(data-aos="fade-up") Cuando se habla de las políticas específicas por área, como control de accesos, respaldo o uso aceptable, ISO permite que estas no tengan que ser aprobadas necesariamente por la alta dirección, sino que por el contrario, estas aprobaciones pueden darse por niveles administrativos con menor relevancia, como por citar al jefe de área o el director de algún departamento en particular, siempre que sea competente y cuente con autoridad para ello (Parker, s.f.), lo que facilita una implementación más ágil y alineada con la estructura organizacional.
+        p.mb-0(data-aos="fade-down") Para entender mejor los procesos de aprobación, se relacionan algunos ejemplos: 
     
     .row.justify-content-center.mb-0(data-aos="flip-up")
       .col-xl-4.col-lg-8.mb-4.mb-xl-5
@@ -231,15 +231,15 @@
           .tarjeta-avatar-b__img.me-0.d-flex.justify-content-center.align-items-center(style="width:60px; height:60px; border-radius:50%")
             .col-lg-8
               img(src='@/assets/curso/temas/tema3/img14.svg' alt="Imagen decorativa")(style= "width: 100%")
-          .tarjeta.tarjeta--C02.py-3
-            .p-3
+          .tarjeta.tarjeta--C02
+            .p-4
               p.mb-0 La aprobación de políticas de seguridad de la información, representa un paso clave para que se pueda garantizar la legalidad y el cumplimiento de ellas, al interior de cualquier organización. Este proceso, que va desde la detección de la necesidad hasta la validación formal, asegura que las medidas adoptadas respondan a riesgos reales, cuenten con respaldo directivo y sean aplicables de forma efectiva en la empresa.
 
     separador
     #t_3_4.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.4 Comunicación
     
-    .tarjeta.tarjeta--BG03.p-4.p-lg-3.mb-0
+    .tarjeta.tarjeta--BG03.px-md-5.px-4.mb-0
       .col-12
         .row.justify-content-center.mb-5
           .row.justify-content-center
@@ -322,30 +322,27 @@
 
     .row.mb-5(data-aos="flip-up")
       .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-01.p-5
+        .tarjeta-numerada.color-01.ps-5.pe-4.py-4
           .tarjeta-numerada__numero
             .h2 1
-          p.text-center El proceso inicia con la planificación, allí se definen los recursos, responsables y el cronograma de ejecución.
-
+          p.text-center.mb-0 El proceso inicia con la planificación, allí se definen los recursos, responsables y el cronograma de ejecución.
       .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-02.p-5
+        .tarjeta-numerada.color-02.ps-5.pe-4.py-4
           .tarjeta-numerada__numero
             .h2 2
-          p.text-center Luego sigue la comunicación y la socialización, lo cual puede incluir según las directrices de la empresa, capacitaciones, guías, reuniones, afiches o señalizaciones, entre otros.
-
+          p.text-center.mb-0 Luego sigue la comunicación y la socialización, lo cual puede incluir según las directrices de la empresa, capacitaciones, guías, reuniones, afiches o señalizaciones, entre otros.
       .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-03.p-5
+        .tarjeta-numerada.color-03.ps-5.pe-4.py-4
           .tarjeta-numerada__numero
             .h2.text-white 3
-          p.text-center Acto seguido, se pone en marcha la puesta en práctica, asegurando que los controles y demás medidas que están en la política sean integradas a los procesos diarios. Es importante definir y mantener un sistema de seguimiento y medición, con indicadores claros que permitan evaluar el nivel de cumplimiento e identificar brechas o incumplimientos. 
-
+          p.text-center.mb-0 Acto seguido, se pone en marcha la puesta en práctica, asegurando que los controles y demás medidas que están en la política sean integradas a los procesos diarios. Es importante definir y mantener un sistema de seguimiento y medición, con indicadores claros que permitan evaluar el nivel de cumplimiento e identificar brechas o incumplimientos. 
       .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-04.p-5
+        .tarjeta-numerada.color-04.ps-5.pe-4.py-4
           .tarjeta-numerada__numero
             .h2 4
-          p.text-center Por último, los resultados de este monitoreo alimentan el proceso de revisión y mejora, donde se revisa si se tienen que hacer ajustes a la política o a los procedimientos que cambian según el contexto, como nuevas amenazas o incidentes que han ocurrido después de implementada la política.
+          p.text-center.mb-0 Por último, los resultados de este monitoreo alimentan el proceso de revisión y mejora, donde se revisa si se tienen que hacer ajustes a la política o a los procedimientos que cambian según el contexto, como nuevas amenazas o incidentes que han ocurrido después de implementada la política.
 
-    p(data-aos="fade-down") Basado en lo anterior, a continuación, se detallan ejemplos que muestran hipotéticamente como se pueden dar dos implementaciones:
+    p.mb-5(data-aos="fade-down") Basado en lo anterior, a continuación, se detallan ejemplos que muestran hipotéticamente como se pueden dar dos implementaciones:
 
     .row.align-items-center.mb-5(data-aos="flip-up")
       .col-auto.pe-0(style="z-index:2")
@@ -367,75 +364,74 @@
           h3.mb-0.ms-3 Ejemplo 2: Empresa de desarrollo de <em>software</em> PANAMSOFT
     
     .row.justify-content-center.mb-0
-      .col-lg-10.col-12
+      .col-lg-10
         LineaTiempoD.color-acento-botones.especial
-          .row.mb-0(numero="1" titulo="Planificación")
-            .col-12.mb-4.mb-md-0.mb-0
+          .row(numero="1" titulo="Planificación")
+            .col-12.mb-4
               .tarjeta.tarjeta--blanca.p-4
                 ul.lista-ul--color
-                  li(data-aos="fade-right") 
+                  li
                     i.lista-ul__vineta
                     p.mb-0 El director de proyectos y el oficial de seguridad de la información (CISO), elaboran un plan para implementar la política en los equipos de desarrollo y soporte.
-                  li(data-aos="fade-right") 
+                  li
                     i.lista-ul__vineta
                     p.mb-0 Se definen recursos: herramientas de gestión de control de versiones seguras, capacitación en OWASP, y VPN para acceso remoto seguro.
-            .col-12.mb-0(data-aos="fade-up")
+            .col-12
               figure
                 img(src='@/assets/curso/temas/tema3/img28.jpg', alt='Imagen decorativa')
-
-          .row.mb-0(numero="2" titulo="Comunicación y socialización")
-            .col-12.mb-4.mb-md-0.mb-0
+          .row(numero="2" titulo="Comunicación y socialización")
+            .col-12.mb-4
               .tarjeta.tarjeta--blanca.p-4
                 ul.lista-ul--color
-                  li(data-aos="fade-right") 
+                  li
                     i.lista-ul__vineta
                     p.mb-0 Taller inicial para todo el personal explicando riesgos como fuga de código fuente, robo de credenciales o <em>malware</em>. 
-                  li(data-aos="fade-right") 
+                  li
                     i.lista-ul__vineta
                     p.mb-0 Publicación de un manual interno en la intranet sobre buenas prácticas de seguridad.
-            .col-12.mb-0(data-aos="fade-up")
+            .col-12
               figure
                 img(src='@/assets/curso/temas/tema3/img29.jpg', alt='Imagen decorativa')
-          .row.mb-0(numero="3" titulo="Puesta en práctica")
-            .col-12.mb-4.mb-md-0.mb-0
+          .row(numero="3" titulo="Puesta en práctica")
+            .col-12.mb-4
               .tarjeta.tarjeta--blanca.p-4
                 ul.lista-ul--color
-                  li(data-aos="fade-right") 
+                  li
                     i.lista-ul__vineta
                     p.mb-0 Implementación de autenticación multifactor para el acceso a repositorios.
-                  li(data-aos="fade-right") 
+                  li
                     i.lista-ul__vineta
                     p.mb-0 Configuración de entornos de desarrollo segregados para pruebas y producción.
-                  li(data-aos="fade-right") 
+                  li
                     i.lista-ul__vineta
                     p.mb-0 Copias de seguridad automáticas del código y bases de datos.
-            .col-12.mb-0(data-aos="fade-up")
+            .col-12
               figure
                 img(src='@/assets/curso/temas/tema3/img30.jpg', alt='Imagen decorativa')
-          .row.mb-0(numero="4" titulo="Seguimiento y medición")
-            .col-12.mb-4.mb-md-0.mb-0
+          .row(numero="4" titulo="Seguimiento y medición")
+            .col-12.mb-4
               .tarjeta.tarjeta--blanca.p-4
                 ul.lista-ul--color
-                  li(data-aos="fade-right") 
+                  li
                     i.lista-ul__vineta
                     p.mb-0 Auditorías quincenales de <em>commits</em> en repositorios para detectar cambios no autorizados.
-                  li(data-aos="fade-right") 
+                  li
                     i.lista-ul__vineta
                     p.mb-0 Evaluaciones trimestrales de cumplimiento de las prácticas seguras por parte de los desarrolladores.
-            .col-12.mb-0(data-aos="fade-up")
+            .col-12
               figure
                 img(src='@/assets/curso/temas/tema3/img31.jpg', alt='Imagen decorativa')
           .row.mb-0(numero="5" titulo="Revisión y mejora")
-            .col-12.mb-4.mb-md-0.mb-0
+            .col-12.mb-4
               .tarjeta.tarjeta--blanca.p-4
                 ul.lista-ul--color
-                  li(data-aos="fade-right") 
+                  li
                     i.lista-ul__vineta
                     p.mb-0 Actualización de la política tras detectar un intento de <em>phishing</em> dirigido al equipo de soporte.
-                  li(data-aos="fade-right") 
+                  li
                     i.lista-ul__vineta
                     p.mb-0 Inclusión de simulacros de respuesta ante incidentes como parte del entrenamiento anual.
-            .col-12.mb-0(data-aos="fade-up")
+            .col-12
               figure
                 img(src='@/assets/curso/temas/tema3/img32.jpg', alt='Imagen decorativa')
 
