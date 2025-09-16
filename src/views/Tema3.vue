@@ -11,7 +11,7 @@
         figure
           img(src='@/assets/curso/temas/tema3/img01.png', alt='Imagen decorativa')
     
-    p.mb-0(data-aos="fade-down") Esta gestión barca el conjunto de acciones que son necesarias para que se pueda garantizar unas políticas bien diseñadas, aprobadas, comunicadas, implementadas y revisadas de forma efectiva. Gracias a este proceso, las directrices establecidas, pueden mantenerse alineadas con las necesidades de la organización y los cambios del entorno, asegurando así su vigencia y aplicabilidad en el tiempo. En esta temática, se analizará que puntos clave pueden conformar esta gestión, proporcionando pautas para una correcta aplicación en las organizaciones.
+    p.mb-0(data-aos="fade-down") Esta gestión abarca el conjunto de acciones que son necesarias para que se pueda garantizar unas políticas bien diseñadas, aprobadas, comunicadas, implementadas y revisadas de forma efectiva. Gracias a este proceso, las directrices establecidas, pueden mantenerse alineadas con las necesidades de la organización y los cambios del entorno, asegurando así su vigencia y aplicabilidad en el tiempo. En esta temática, se analizará qué puntos clave pueden conformar esta gestión, proporcionando pautas para una correcta aplicación en las organizaciones.
 
     separador
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")

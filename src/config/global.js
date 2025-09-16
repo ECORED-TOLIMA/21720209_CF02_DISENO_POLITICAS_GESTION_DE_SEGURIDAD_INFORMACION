@@ -125,7 +125,7 @@ export default {
     {
       tema: 'Políticas de seguridad de la información',
       referencia:
-        'Cámara de Comercio de Honda. (s.f.). <em>Política de seguridad</em>. https://www.camarahonda.org.co/wp-content/uploads/2017/09/ POLITICADESEGURIDADDELAINFORMACION.pdf',
+        'Cámara de Comercio de Honda. (s.f.). <em>Política de seguridad</em>.',
       tipo: 'Documento',
       link:
         'https://www.camarahonda.org.co/wp-content/uploads/2017/09/POLITICADESEGURIDADDELAINFORMACION.pdf',
@@ -133,7 +133,7 @@ export default {
     {
       tema: 'Gestión de políticas de seguridad de la información',
       referencia:
-        'Acuña, G. (s.f.). <em>Guía para escribir una política de Ciberseguridad en una empresa pequeña y mediana</em>. Jaiva Technologies. https://jaivatechnologies.com/guia-para-politica-de-ciberseguridad-en-pequena-mediana-empresa/',
+        'Acuña, G. (s.f.). <em>Guía para escribir una política de Ciberseguridad en una empresa pequeña y mediana</em>. Jaiva Technologies.',
       tipo: 'Sitio <em>web</em>',
       link:
         'https://jaivatechnologies.com/guia-para-politica-de-ciberseguridad-en-pequena-mediana-empresa/',
@@ -141,7 +141,7 @@ export default {
     {
       tema: 'Proceso de implementación',
       referencia:
-        'LATAM Certificaciones TI. (2025, 10 de julio). <em>CISO: Seguridad de la Información: Plan de Implementación de Controles y Política de Seguridad de TI</em> [Video]. YouTube. https://www.youtube.com/watch?v=O3I8FXam9FE',
+        'LATAM Certificaciones TI. (2025, 10 de julio). <em>CISO: Seguridad de la Información: Plan de Implementación de Controles y Política de Seguridad de TI</em> [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=O3I8FXam9FE',
     },
@@ -252,7 +252,8 @@ export default {
       autores: [
         {
           nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del equipo',
+          cargo:
+            'Responsable Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Dirección General',
         },
         {

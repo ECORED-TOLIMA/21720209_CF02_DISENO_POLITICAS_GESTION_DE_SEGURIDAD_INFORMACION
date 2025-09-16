@@ -17,7 +17,7 @@
         p(data-aos="fade-down") Representan el pilar sobre el cual se va a definir, organizar y regular la protección de los activos de información en una organización. Las políticas no se limitan solo a ser unos documentos formales, por el contrario, representan compromisos estratégicos que guían la ruta que tiene que seguir el personal, frente a las amenazas y los riesgos. A través de ellas, se establecen los principios, los lineamientos y las responsabilidades que orientan la gestión de la seguridad, buscando que las decisiones y acciones que se tomen, estén alineadas con los objetivos organizacionales. Entender su importancia y su correcta formulación, es fundamental para fortalecer la entereza de la empresa y garantizar la continuidad del negocio en un entorno cada vez más digitalizado y expuesto a incidentes.
         .cajon.cajon.C01.px-4.py-4
           .row.justify-content-center
-            .col-auto.col-4.mb-lg-0.mb-4
+            .col-lg-auto.col-4.mb-lg-0.mb-4
               figure(data-aos="fade-down")
                 img(src='@/assets/curso/temas/tema1/img02.svg', alt='Imagen decorativa')
             .col-lg-10.col-12
@@ -48,10 +48,13 @@
         figure
           img(src='@/assets/curso/temas/tema1/img03.png', alt='Imagen decorativa')
 
-    .row.justify-content-center.mb-0
+    .row.justify-content-center.mb-5
       .col-lg-10.col-12
         .cajon.cajon.C01.color-primario.p-4
-          p.mb-0(data-aos="fade-down") Hay que tener en cuenta que con las políticas se establecen los principios y objetivos generales de la seguridad de la información y que estas tienen que ser aprobadas por las directivas de la empresa. 
+          p.mb-0(data-aos="fade-down") Hay que tener en cuenta que con las políticas se establecen los principios y objetivos generales de la seguridad de la información y que estas tienen que ser aprobadas por las directivas de la empresa.
+    
+    p.mb-0(data-aos="fade-down") Por lo que se puede entender, las políticas de seguridad de la información, son guías revestidas de mucha importancia para la protección de los recursos físicos y tecnológicos que contienen la información más relevante y cuya efectividad depende de que los miembros de la empresa las comprendan, acepten, respeten y apliquen, fortaleciendo así la cultura de seguridad y minimizando los riesgos internos y externos.
+
 
     separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -415,17 +418,17 @@
       LineaTiempoC.color-acento-botones(text-small)(data-aos="flip-up")
         .row(titulo="Coherencia")
           .col-lg-7.mb-4.mb-md-0.order-lg-2.order-2
-            h5 Adaptación a la estructura y roles internos
-            p Las disposiciones tienen que considerar lo que son la jerarquía, las responsabilidades y funciones, en las diferentes áreas, con el fin de facilitar su implementación y control.
-            p <b>Ejemplo</b>: si el área de ventas trabaja de forma remota, la política debe incluir medidas específicas de acceso seguro a la información desde dispositivos móviles.
+            h5 Coherencia con la misión, visión y valores corporativos
+            p La política debe reflejar y apoyar la razón de ser de la organización, promoviendo procedimientos y comportamientos que respalden su filosofía empresarial.
+            p <b>Ejemplo</b>: una empresa agropecuaria, con enfoque en sostenibilidad, debe integrar en su política, prácticas de protección de datos que minimicen el uso de papel y prioricen medios digitales seguros.
           .col-lg-5.order-lg-1.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/temas/tema1/img20.jpg', alt='Imagen decorativa')
         .row(titulo="Adaptación")
           .col-lg-7.mb-4.mb-md-0.order-lg-2.order-2
-            h5 Coherencia con la misión, visión y valores corporativos
-            p La política debe reflejar y apoyar la razón de ser de la organización, promoviendo procedimientos y comportamientos que respalden su filosofía empresarial.
-            p <b>Ejemplo</b>: una empresa agropecuaria, con enfoque en sostenibilidad, debe integrar en su política, prácticas de protección de datos que minimicen el uso de papel y prioricen medios digitales seguros.
+            h5 Adaptación a la estructura y roles internos
+            p Las disposiciones tienen que considerar lo que son la jerarquía, las responsabilidades y funciones, en las diferentes áreas, con el fin de facilitar su implementación y control.
+            p <b>Ejemplo</b>: si el área de ventas trabaja de forma remota, la política debe incluir medidas específicas de acceso seguro a la información desde dispositivos móviles.
           .col-lg-5.order-lg-1.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/temas/tema1/img21.jpg', alt='Imagen decorativa')

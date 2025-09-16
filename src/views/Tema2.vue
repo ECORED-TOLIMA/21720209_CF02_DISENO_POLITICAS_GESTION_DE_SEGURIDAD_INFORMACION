@@ -70,7 +70,7 @@
                 td(data-aos="fade-down") Lograr un nivel específico de madurez en seguridad de la información.
                 td(data-aos="fade-down") Implica alcanzar un grado de protección definido, medido por estándares internos o externos, que permita operar de forma segura.
               tr
-                td(data-aos="fade-down")(style="background-color: #F6F6F6") Obtener una certificación o acreditación oficial en seguridad de la información
+                td(data-aos="fade-down")(style="background-color: #F6F6F6") Obtener una certificación o acreditación oficial en seguridad de la información.
                 td(data-aos="fade-down")(style="background-color: #F6F6F6") Busca que la organización sea reconocida formalmente por cumplir con altos estándares en la protección de datos y sistemas.
     
     .row.justify-content-center.mb-0
@@ -216,7 +216,7 @@
                 td(data-aos="fade-down") Reducir en un 30 % el número de incidentes de <em>phishing</em> reportados en seis meses.
               tr
                 td.text-bold(data-aos="fade-down")(style="background-color: #F6F6F6") Consideración de requisitos y resultados de la gestión de riesgos
-                td(data-aos="fade-down")(style="background-color: #F6F6F6") Hay que tener en cuenta las leyes, las regulaciones, los requisitos contractuales y los hallazgos que se han hayan encontrado en la evaluación de los riesgos.
+                td(data-aos="fade-down")(style="background-color: #F6F6F6") Hay que tener en cuenta las leyes, las regulaciones, los requisitos contractuales y los hallazgos que se hayan encontrado en la evaluación de los riesgos.
                 td(data-aos="fade-down")(style="background-color: #F6F6F6") Establecer controles de acceso basados en roles, debido a que el análisis de riesgos detectó accesos no autorizados como amenaza prioritaria.
               tr
                 td.text-bold(data-aos="fade-down") Monitoreo
@@ -301,7 +301,7 @@
               p En esta etapa final, es donde se ajustan los objetivos en función de cambios en el contexto, resultados de evaluaciones y auditorías internas.
               p.mb-0 <b>Ejemplo</b>: revisar los objetivos cada seis meses para adaptarlos a nuevas amenazas tecnológicas.
     
-        p(data-aos="fade-down") Una de las metodologías más usadas en la construcción de objetivos es la SMART, cuyo nombre parte de un acrónimo por sus siglas en inglés, por alinearse con todas las especificaciones y necesidades de los objetivos de seguridad de información en una organización.
+        p(data-aos="fade-down") Una de las metodologías más usadas en la construcción de objetivos es la SMART, cuyo nombre parte de un acrónimo por sus siglas en inglés, para alinearse con todas las especificaciones y necesidades de los objetivos de seguridad de información en una organización.
         p.mb-4(data-aos="fade-down") Dicha metodología, se explica a continuación:
 
     .row.justify-content-center
