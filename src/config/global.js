@@ -5,7 +5,6 @@ export default {
     descripcionCurso:
       'Este componente enseña a formular, implementar y gestionar políticas de seguridad de la información adaptadas a cada organización. Incluye conceptos, estructuras, redacción y objetivos claros. Aborda el diseño, aprobación, comunicación, implementación y revisión de políticas, promoviendo medidas estratégicas que protejan los activos y fortalezcan la cultura de seguridad en el entorno productivo.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
